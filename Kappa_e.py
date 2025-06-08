@@ -50,4 +50,5 @@ ax.set_xlim(mu_eV[0], mu_eV[-1])
 ax.tick_params(labelsize=10)
 
 plt.tight_layout(pad=2.0)
+plt.savefig("Kappa_e")
 plt.show()

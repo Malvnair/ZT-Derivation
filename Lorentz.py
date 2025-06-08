@@ -40,4 +40,5 @@ ax.set_ylim(1.55, 2.05)
 ax.tick_params(labelsize=10)
 
 plt.tight_layout(pad=2.0)
+plt.savefig("Lorentz")
 plt.show()

@@ -154,7 +154,7 @@ for ax in axes:
     ax.tick_params(labelsize=10)
     
 plt.tight_layout(pad=2.0)
-plt.savefig("thermoelectric_properties.png", dpi=150, bbox_inches='tight')
+plt.savefig("All properties.png", dpi=150, bbox_inches='tight')
 plt.show()
 
 # Additional analysis: Find optimal operating point
