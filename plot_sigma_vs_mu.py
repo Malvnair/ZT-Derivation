@@ -8,7 +8,7 @@ gamma_3_2 = mp.gamma(1.5)
 T = 300.0
 C = 1.0
 
-mu_eV = np.linspace(-0.30, 0.00, 200)
+mu_eV = np.linspace(-0.5, 0.5, 200)
 sigma_vals = []
 for mu in mu_eV:
     mu_J = mu * eV_to_J
